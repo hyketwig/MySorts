@@ -60,7 +60,7 @@ public class BogoSort {
 	    shuffle(data);
 	}
 	
-    }//end bogoSortV
+    }//end bogoSortV -- O(infinity)
 
 
 
@@ -82,7 +82,7 @@ public class BogoSort {
 	bogoSortV(ret);
 	return ret;
 	
-    }//end bogoSort -- O(n^2)
+    }//end bogoSort -- O(infinity)
 
 
     public static void main(String[] args) {
